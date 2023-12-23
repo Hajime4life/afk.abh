@@ -1,0 +1,33 @@
+.news {
+    img{
+        max-width: 400px;
+        max-height: 400px;
+    }
+    margin: 15px;
+}
+
+.new{
+    display: flex;
+    align-items: center;
+    border: 2px solid $main;
+    margin-bottom: 10px;
+
+    img {
+        max-width: 500px;
+        max-height: 400px;
+        margin: 5px;
+    }
+
+    iframe {
+        max-width: 500px;
+        max-height: 400px;
+        margin: 5px;
+    }
+    
+    &-description{
+        margin: 15px;
+        h4 {
+            text-align: center;
+        }
+    }
+}

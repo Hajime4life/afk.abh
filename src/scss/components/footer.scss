@@ -1,0 +1,16 @@
+.footer {
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    
+    .MuiSvgIcon-root {
+        color: $main; 
+        padding: 5px;
+        &:hover{
+            color: $back;
+        }
+    }
+
+
+}
+

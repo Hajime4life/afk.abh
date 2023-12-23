@@ -1,0 +1,35 @@
+.partners{
+    margin: 15px;
+
+    &-list {
+        
+    }
+}
+.partner{
+   
+    &-card{
+        display: flex;
+        border: 1px solid black;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    &-logo{
+        height: 150px;
+        width: 150px;
+        margin: 10px;
+    }
+
+    &-description{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        padding: 20px;
+        color: white;
+        background: linear-gradient(to right, $main, $dark_main);
+        max-width: 80%;
+        border-radius: 10px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    }
+
+}

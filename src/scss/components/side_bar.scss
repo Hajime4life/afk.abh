@@ -1,0 +1,30 @@
+.nav-list{
+    background-color: $main;
+    color: $back;
+    max-width: 170px;
+    background: linear-gradient(to bottom left, $main, $dark_main);
+
+    .MuiSvgIcon-root {
+        color: $back; 
+        &:hover{
+            color: $main;
+        }
+    }
+
+    &__item{
+        cursor: pointer;
+        &:hover{
+            background-color: $back;
+            color: $main;
+            .MuiSvgIcon-root {
+                color: $main;    
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        height: auto;
+        min-width: 100%;
+    }
+}
+

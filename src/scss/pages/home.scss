@@ -1,0 +1,17 @@
+.home{
+    margin: 15px;
+}
+
+.img-container {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+
+    img{
+        border-radius: 15px;    
+        min-width: 300px;
+        margin: 10px;
+        
+        
+    }
+}
